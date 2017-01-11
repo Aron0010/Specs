@@ -50,99 +50,56 @@ ul.nav li a:hover:not(.active) {
 
 /*-------footer------*/
 
-table {
-    background-color: #4797AE;
-    color: white;
+footer{Background-color:#4797AE;
+padding-bottom:30px;
+color:white;}
+
+.clearfix a {
+  text-decoration: none;
+  color: antiquewhite;
 }
 
-th {
-    color: white;
-    text-align: left;
+
+
+.rij-1 {
+  float: left;
+  width: 300px;
+  padding-right: 20px;
+  padding-left: 7%;
+  margin-top: 10px;
+  box-sizing: border-box;
 }
 
-.Newsletter {
-    width: 50%;
-    padding-left: 7%;
-    font-size: 20px;
-    font-weight: bold;
-    padding-top: 2%;
+.rij-2 {
+  float: left;
+  width:150px;
+  padding-right: 20px;
+  margin-left: 50%;
+  margin-top: 10px;
+  box-sizing: border-box;
 }
 
-.About-us {
-    width: 10%;
-    font-size: 20px;
-    font-weight: bold;
-    padding-top: 2%;
+.rij-3 {
+  float: right;
+  padding-right: 7%;
+  padding-left: 10px;
+  margin-top: 10px;
+  box-sizing: border-box;
 }
 
-.Find-us {margin:0;
-    width: 10%;
-    font-size: 20px;
-    font-weight: bold;
-    padding-top: 2%;
+.clearfix a:hover {
+  color: white;
+  text-decoration: none;
 }
 
-.Subscribe {
-    padding-left: 7%;
-    font
-}
 
-.Who-are-we {
-    color: white;
-    text-align: left;
-}
-
-.Help {
-    color: white;
-    padding-top: 0%;
-    text-align: left;
-}
-
-.Language {
-    font-size: 20px;
-    font-weight: bold;
-}
-
-.Contact {
-    color: white;
-    text-align: left;
-}
-
-table {
-    border-spacing: 0;
-    width: 100%;
-    border-collapse: collapse;
-}
-
-tfoot td {
-    color: orange;
-    text-align: left;
-}
-
-.Icons {
-    margin-top: 5px
-}
-
-.E-mail {
-    padding-left: 9.5%;
-}
-
-.Invulvak {
-    padding-left: 6.9%;
-}
-
-.Send {
-    padding-left: 6.8%;
-    padding-top: 5px;
-}
-
-.Rights {
-    padding-left: 7%;
-    padding-bottom: 2px;
-    color: white;
-    padding-right: 7%;
-    background-color: #4797AE;
-    padding-top: 15px;
+.clearfix:after {
+  content: " ";
+  display: block;
+  clear: both;
+  visibility: hidden;
+  line-height: 0;
+  height: 0;
 }
 
 @media screen and (max-width:1170px){
@@ -170,4 +127,8 @@ tfoot td {
     padding-right:30%;
     width: 40%;
 }
+}
+
+@media screen and (max-width:600px){
+    
 }
