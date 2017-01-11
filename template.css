@@ -62,33 +62,30 @@ color:white;}
 
 
 .rij-1 {
-  float: left;
+  float: none;
   width: 20%;
+  padding-top:10px;
   padding-right: 20px;
   padding-left: 7%;
-  margin-top: 10px;
+  margin-top: 0px;
   box-sizing: border-box;
 }
 
-.About-Find{width:19%;
-    margin-left:0;
-    padding-right:7%;
-float:right;}
-
 .rij-2 {
-  float: left;
-  width:95px;
-    padding-right:0px;
-    margin-right:20%;
-  margin-left: 0%;
+  float: right;
+    margin-right: 10%;
+  padding-left: 0%;
+    margin-right:%;
   margin-top: 10px;
   box-sizing: border-box;
 }
 
 .rij-3 {
-  float: left;
-  padding-left: 0%;
-    margin-right:%;
+  float: right;
+  width:95px;
+    padding-right:0px;
+    margin-right:5%;
+  margin-left: 0%;
   margin-top: 10px;
   box-sizing: border-box;
 }
@@ -134,7 +131,7 @@ hr{display: none;}
 
 */
 @media screen and (max-width:850px){
-    .Nav-pos {float: right;
+    .Nav-pos {float:none;
         text-align: center;
         width:100%;
         margin:0 auto;
@@ -149,7 +146,7 @@ hr{display: none;}
 }
 
 @media screen and (max-width:807px){
-   .Nav-pos {float: right;
+   .Nav-pos {float: none;
        text-align: center;
         width:100%;
         margin:0 auto;
