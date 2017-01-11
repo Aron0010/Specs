@@ -39,11 +39,11 @@ ul.nav li a:hover:not(.active) {
     width: 250px;
     float: left;
     padding-top: 23px;
-    padding-left: 20px;
-    padding-right: 10%;
+    padding-left: 7%;
+    padding-right: 0%;
 }
 
-.Nav-pos {
+.Nav-pos {padding-right: 5%;
     float: right
 }
 
@@ -61,7 +61,7 @@ th {
 }
 
 .Newsletter {
-    width: 60%;
+    width: 50%;
     padding-left: 7%;
     font-size: 20px;
     font-weight: bold;
@@ -69,14 +69,14 @@ th {
 }
 
 .About-us {
-    width: 20%;
+    width: 10%;
     font-size: 20px;
     font-weight: bold;
     padding-top: 2%;
 }
 
-.Find-us {
-    width: 20%;
+.Find-us {margin:0;
+    width: 10%;
     font-size: 20px;
     font-weight: bold;
     padding-top: 2%;
@@ -124,7 +124,7 @@ tfoot td {
 }
 
 .E-mail {
-    padding-left: 11.4%;
+    padding-left: 9.5%;
 }
 
 .Invulvak {
@@ -143,4 +143,31 @@ tfoot td {
     padding-right: 7%;
     background-color: #4797AE;
     padding-top: 15px;
+}
+
+@media screen and (max-width:1170px){
+    .Newsletter {width: 45%;
+}
+    .E-mail {
+    padding-left: 10%;
+}
+}
+
+@media screen and (max-width:950px){
+    .Newsletter {width: 40%;
+}
+}
+
+@media screen and (max-width:850px){
+    .Nav-pos {float: left;
+        width:60%;
+        margin:0;
+        padding-right:20%;
+        padding-left:20%;
+}
+.logo {float: left;
+    padding-left: 30%;
+    padding-right:30%;
+    width: 40%;
+}
 }
