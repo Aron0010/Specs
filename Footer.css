@@ -1,16 +1,43 @@
+    body{margin:0;}  
+
+    table{background-color:#4797AE;
+        color:white;}
+    
     th{color:white;
-        padding:1em;
-        background-color:;}
+        text-align: left;}
 
     .Newsletter{width:60%;
-        }
+        padding-left:7%;
+        font-size:20px;
+        font-weight:bold;
+        padding-top:2%;}
+
+    .About-us{width:20%;
+        font-size:20px;
+        font-weight:bold;
+        padding-top:2%;}
+
+    .Find-us{width:20%;
+        font-size:20px;
+        font-weight:bold;
+        padding-top:2%;}
+
+    .Subscribe{padding-left:7%;
+        font}
       
-    .een{background-color: blue;
+    .Who-are-we{
         color:white;
         text-align: left;}
-      
-    .twee{background-color:blueviolet;
-        color:white;
+
+
+    .Help{color:white;
+        padding-top:0%;
+        text-align: left;}
+
+    .Language{font-size:20px;
+        font-weight:bold;}
+
+    .Contact{color:white;
         text-align: left;}
       
     table{border-spacing: 0;
@@ -18,5 +45,20 @@
         border-collapse: collapse;}
       
     tfoot td{color:orange;
-            text-align: left;
-            background-color:greenyellow}
+        text-align: left;}
+
+    .Icons{margin-top:5px}    
+
+    .E-mail {padding-left:11.4%;}
+    
+    .Invulvak{padding-left:6.9%;}
+    
+    .Send{padding-left:6.8%;
+        padding-top:5px;}
+
+    .Rights{padding-left:7%;
+        padding-bottom:2px;
+        color:white;
+        padding-right:7%;
+        background-color:#4797AE;
+        padding-top:15px;}
