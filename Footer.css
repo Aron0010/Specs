@@ -62,3 +62,22 @@
         padding-right:7%;
         background-color:#4797AE;
         padding-top:15px;}
+
+
+
+
+
+
+
+html,
+body {
+    margin: 0;
+    display: table;
+    height: 100%;
+    width: 100%;
+}
+
+.wrapper {
+    padding: 20px;
+    height: auto;
+}
