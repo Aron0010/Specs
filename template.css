@@ -63,27 +63,32 @@ color:white;}
 
 .rij-1 {
   float: left;
-  width: 300px;
+  width: 20%;
   padding-right: 20px;
   padding-left: 7%;
   margin-top: 10px;
   box-sizing: border-box;
 }
 
+.About-Find{width:19%;
+    margin-left:0;
+    padding-right:7%;
+float:right;}
+
 .rij-2 {
   float: left;
   width:95px;
     padding-right:0px;
-    margin-right:0;
-  margin-left: 50%;
+    margin-right:20%;
+  margin-left: 0%;
   margin-top: 10px;
   box-sizing: border-box;
 }
 
 .rij-3 {
-  float: right;
+  float: left;
   padding-left: 0%;
-    margin-right:7%;
+    margin-right:%;
   margin-top: 10px;
   box-sizing: border-box;
 }
@@ -127,9 +132,10 @@ hr{display: none;}
 }
 }
 
-
+*/
 @media screen and (max-width:850px){
     .Nav-pos {float: right;
+        text-align: center;
         width:100%;
         margin:0 auto;
         padding-right:0%;
@@ -144,12 +150,13 @@ hr{display: none;}
 
 @media screen and (max-width:807px){
    .Nav-pos {float: right;
+       text-align: center;
         width:100%;
         margin:0 auto;
         padding-right:0%;
         padding-left:0%;
 }
-
+/*
 @media screen and (max-width:782px){
     .rij-2 {margin-left:15%;
 }
