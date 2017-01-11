@@ -62,22 +62,20 @@ color:white;}
 
 
 .rij-1 {
-  float: none;
-  width: 20%;
+  float: left;
+  width: 45%;
   padding-top:10px;
   padding-right: 20px;
   padding-left: 7%;
-  margin-top: 0px;
-  box-sizing: border-box;
+  margin:0;
 }
 
 .rij-2 {
   float: right;
     margin-right: 10%;
   padding-left: 0%;
-    margin-right:%;
+    margin-right:7%;
   margin-top: 10px;
-  box-sizing: border-box;
 }
 
 .rij-3 {
@@ -87,7 +85,6 @@ color:white;}
     margin-right:5%;
   margin-left: 0%;
   margin-top: 10px;
-  box-sizing: border-box;
 }
 
 .clearfix a:hover {
