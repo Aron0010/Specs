@@ -46,6 +46,8 @@ ul.nav li a:hover:not(.active) {
     padding-right: 10%;
 }
 
+.Nav-pos{float: right}
+
 
 /*-------footer------*/
 
