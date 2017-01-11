@@ -1,0 +1,22 @@
+    th{color:white;
+        padding:1em;
+        background-color:;}
+
+    .Newsletter{width:60%;
+        }
+      
+    .een{background-color: blue;
+        color:white;
+        text-align: left;}
+      
+    .twee{background-color:blueviolet;
+        color:white;
+        text-align: left;}
+      
+    table{border-spacing: 0;
+        width:100%;
+        border-collapse: collapse;}
+      
+    tfoot td{color:orange;
+            text-align: left;
+            background-color:greenyellow}
