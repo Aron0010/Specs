@@ -74,6 +74,8 @@ ul.nav li a {width:100%;
     display: inline-block;
     color: white;
     padding:0;
+    padding-top:2%;
+    padding-bottom:2%;
     margin:0;
     text-align: center;
     text-decoration: none;
@@ -329,5 +331,30 @@ footer {margin-top:5%;
     height: 0;
 }
 
+@media screen and (max-width:638px) {
+.rij-1 {width: 36%;}
+    
+.rij-2 { margin-right: 4%;
+}
+    
+@media screen and (max-width:500px) {
 
+.rij-1 {width:100%;
+    text-align: center;
+    float: none;
+    padding:0;
+}
 
+.rij-2 {width:100%;
+    text-align: center;
+    float: none;
+    padding:0;
+    margin:auto;
+}
+
+.rij-3 {width:100%;
+    text-align: center;
+    float: none;
+    padding:0;
+    margin:auto;
+}
