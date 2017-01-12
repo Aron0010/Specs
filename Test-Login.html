@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html>
+<style>
+form {
+        border: 3px solid #f1f1f1;
+    }
+    
+    .test {
+        width: 30%;
+        margin-left: 35%;
+    }
+    
+    input[type=text],
+    input[type=password] {
+        width: 96%;
+        padding: 12px 20px;
+        margin: 8px 0;
+        margin-left: 2%;
+        display: inline-block;
+        border: 1px solid #ccc;
+        box-sizing: border-box;
+    }
+    
+    button {
+        background-color: #4CAF50;
+        color: white;
+        padding: 14px 20px;
+        margin: 8px 0;
+        margin-left: 2%;
+        border: none;
+        width: 96%;
+    }
+    
+    .imgcontainer {
+        text-align: center;
+        margin: 5% 5% 5% 5%;
+    }
+    
+    img.avatar {
+        margin-bottom: 3%;
+        margin-left: 3%;
+        margin-right: 3%;
+        width: 40%;
+    }
+}
+</style>
+
+<body>
+    <div class="test">
+        <h2>Login</h2>
+
+        <form action="action_page.php">
+            <div class="imgcontainer">
+                <img src="Images/Asset%203.png" alt="Facebook" class="avatar">
+                <img src="Images/Asset%201.png" alt="Twitter" class="avatar">
+                <img src="Images/Asset%204.png" alt="Pinterest" class="avatar">
+                <img src="Images/Asset%202.png" alt="Linked In" class="avatar">
+            </div>
+
+            <div class="container">
+                <label><b>Username</b></label>
+                <input type="text" placeholder="Enter Username" name="uname" required>
+
+                <label><b>Password</b></label>
+                <input type="password" placeholder="Enter Password" name="psw" required>
+
+                <button type="submit">Login</button>
+
+            </div>
+        </form>
+    </div>
+</body>
+
+</html>
