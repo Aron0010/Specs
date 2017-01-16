@@ -1,0 +1,495 @@
+    body {
+    margin: 0;
+    
+}
+
+/*-------Navigation------*/
+ul.nav {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color: #4797AE;
+}
+
+ul.nav li {
+    float: left;
+}
+
+ul.nav li a {
+    display: inline-block;
+    color: white;
+    text-align: center;
+    padding: 40px 30px;
+    text-decoration: none;
+}
+
+ul.nav li a.active {
+    background-color: white;
+    color: #4797AE;
+}
+
+ul.nav li a:hover:not(.active) {
+    background-color: white;
+    color: #4797AE;
+}
+
+
+.logo {
+    width: 250px;
+    float: left;
+    padding-top: 23px;
+    padding-left: 7%;
+    padding-right: 0%;
+}
+
+.Nav-pos {
+    padding-right: 5%;
+    float: right;
+}
+
+
+
+@media screen and (max-width:850px) {
+   ul.nav-section {
+    list-style-type: none;
+    margin: 2%;
+    margin-left:5%;
+    padding-left: 0%;
+    overflow: hidden;
+}
+
+ul.nav li {
+    float: left;
+    width:25%;
+    margin-left:0%;
+    margin-right:0%;
+    margin-top:2%;
+    padding-top:1%;
+    padding-bottom:1%;
+    text-align: center;
+}
+
+ul.nav li a {width:100%;
+    display: inline-block;
+    color: white;
+    padding:0;
+    padding-top:2%;
+    padding-bottom:2%;
+    margin:0;
+    text-align: center;
+    text-decoration: none;
+}
+
+.Nav-pos {float:none;
+    width:100%;
+    padding-right: 0%;
+}
+    
+    .logo {
+        float: left;
+        padding-left: 30%;
+        padding-right: 30%;
+        width: 40%;
+    }
+    
+}
+
+
+@media screen and (max-width:500px) {
+   ul.nav-section {
+    list-style-type: none;
+    margin: 2%;
+    margin-left:5%;
+    padding-left: 0%;
+    overflow: hidden;
+}
+
+ul.nav li {
+    float: none;
+    width:100%;
+    margin-left:0%;
+    margin-right:0%;
+    margin-top:0%;
+    padding-top:0%;
+    padding-bottom:1%;
+    text-align: center;
+}
+
+ul.nav li a {width:100%;
+    display: inline-block;
+    color: white;
+    padding:0;
+    padding-top:2%;
+    padding-bottom:2%;
+    margin:0%;
+    text-align: center;
+    text-decoration: none;
+}
+
+.Nav-pos {float:none;
+    width:100%;
+    padding-right: 0%;
+}
+    
+    .logo {
+        float: left;
+        padding-left: 30%;
+        padding-right: 30%;
+        width: 40%;
+    }
+    
+}
+
+
+
+
+
+/*-------main------*/
+
+main {
+    margin-left:5%;
+margin-right:5%
+}
+
+.Contact{background-color:#f7f7f7;
+padding-bottom:5%;
+margin-top: 2.5%;
+}
+
+.Our-Team{
+    margin: 0;}
+
+hr{background-color:black;
+width:25%;
+height: 1px;
+border-radius: 2px;
+float:left;}
+
+.line-under-title{
+margin-left: 5%;   
+}
+
+.Get-in-toch{background-color:#f7f7f7;
+    margin-bottom: 5%;
+    padding-bottom:5% ;
+}
+
+
+h1  {
+    padding-top: 15px;
+    padding-left: 7%;
+    padding-right: 0%;
+}
+
+
+
+
+.Foto-1{width:45%;}
+
+.director {margin-right:0;
+    width: 175px; 
+    padding-top: 0%; 
+    padding-left: 7%;
+    padding-right:0%;   
+}
+
+.info{width:40%;
+    float:right;
+    margin-top:13%;
+    text-align: center;
+    
+}
+.Foto-2{width:45%;
+       
+}
+
+.project {
+    margin-right:0;
+    width: 175px; 
+    padding-top: 0%; 
+    padding-left: 7%;
+    padding-right:0%;
+}
+
+.info-2{
+    width:40%;
+    float:right;
+    margin-top:13%; 
+    text-align: center;
+}
+
+.Foto-3{width:45%;
+       
+}
+
+.technical {
+    margin-right:0;
+    width: 175px; 
+    padding-top: 0%; 
+    padding-left: 7%;
+    padding-right:0%;
+}
+
+.info-3{
+    width:40%;
+    float:right;
+    margin-top:13%;
+    text-align: center;
+}
+
+.Foto-4{width:45%;
+       
+}
+
+.coordinator {
+    margin-right:0;
+    width: 175px; 
+    padding-top: 0%; 
+    padding-left: 7%;
+    padding-right:0%;
+}
+
+.info-4{
+    width:40%;
+    float:right;
+    margin-top:13%; 
+    text-align: center;
+}
+
+.Foto-5{width:45%;
+       
+}
+
+.education {
+    margin-right:0;
+    width: 175px; 
+    padding-top: 0%; 
+    padding-left: 7%;
+    padding-right:0%;
+}
+
+.info-5{
+    width:52%;
+    float:right;
+    margin-top:13%;
+    text-align: center;
+}
+
+.Foto-6{width:45%;
+       
+}
+
+.administration {
+    margin-right:0;
+    width: 175px; 
+    padding-top: 0%; 
+    padding-left: 7%;
+    padding-right:0%;
+}
+
+.info-6{
+    width:52%;
+    float:right;
+    margin-top:13%;
+    text-align: center;
+}
+
+.Foto-7{width:45%;
+       
+}
+
+.head-of-gluon {
+    margin-right:0;
+    width: 175px; 
+    padding-top: 0%; 
+    padding-left: 7%;
+    padding-right:0%;
+}
+
+.info-7{
+    width:52%;
+    float:right;
+    margin-top:13%; 
+    text-align: center;
+}
+
+.Foto-8{width:45%;
+       
+}
+
+.art {
+    margin-right:0;
+    width: 175px; 
+    padding-top: 0%; 
+    padding-left: 7%;
+    padding-right:0%;
+}
+
+.info-8{
+    width:52%;
+    float:right;
+    margin-top:13%; 
+    text-align: center;
+}
+
+h2 {padding-top: 15px;
+    padding-left: 7%;
+    padding-right: 0%;
+}
+
+
+.content1 {
+    padding-top: 30px;
+    padding-left: 7%; 
+    
+
+}
+
+.phone{width:35%;
+       
+}
+
+.phone2 {
+    margin-right:0;
+    width: 50px; 
+    padding-top: 3%; 
+    padding-left: 17%;
+    padding-right:0%;
+}
+
+.info-phone{
+    width:52%;
+    float:right;
+    margin-top:10%; 
+    text-align: center;
+}
+
+
+.mail{width:35%;
+       
+}
+
+.mail2 {
+    margin-right:0;
+    width: 50px; 
+    padding-top: 3%; 
+    padding-left: 17%;
+    padding-right:0%;
+}
+
+.info-mail{
+    width:52%;
+    float:right;
+    margin-top:10%; 
+    text-align: center;
+}
+
+
+.location{width:35%;
+       
+}
+
+.location2 {
+    margin-right:0;
+    width: 50px; 
+    padding-top: 3%; 
+    padding-left: 17%;
+    padding-right:0%;
+}
+
+.info-location{
+    width:70%;
+    float:right;,
+    margin-top:50%;  
+    text-align: center;
+}
+
+
+
+
+
+
+
+
+/*-------footer------*/
+
+footer {margin-top:5%;
+    Background-color: #4797AE;
+    padding-bottom: 30px;
+    color: white;
+}
+
+.clearfix a {
+    text-decoration: none;
+    color: antiquewhite;
+}
+
+.rij-1 {
+    float: left;
+    width: 45%;
+    padding-top: 10px;
+    padding-right: 20px;
+    padding-left: 7%;
+    margin: 0;
+}
+
+.rij-2 {
+    float: right;
+    width: 95px;
+    padding-right: 0px;
+    margin-right: 7%;
+    margin-left: 0%;
+    margin-top: 10px;
+}
+
+.rij-3 {
+    float: right;
+    padding-left: 0%;
+    margin-right: 7%;
+    margin-top: 10px;
+}
+
+
+
+.clearfix a:hover {
+    color: white;
+    text-decoration: none;
+}
+
+.clearfix:after {
+    content: " ";
+    display: block;
+    clear: both;
+    visibility: hidden;
+    line-height: 0;
+    height: 0;
+}
+
+@media screen and (max-width:638px) {
+.rij-1 {width: 36%;}
+    
+.rij-2 { margin-right: 4%;
+}
+    
+@media screen and (max-width:500px) {
+
+.rij-1 {width:100%;
+    text-align: center;
+    float: none;
+    padding:0;
+}
+
+.rij-2 {width:100%;
+    text-align: center;
+    float: none;
+    padding:0;
+    margin:auto;
+}
+
+.rij-3 {width:100%;
+    text-align: center;
+    float: none;
+    padding:0;
+    margin:auto;
+}
