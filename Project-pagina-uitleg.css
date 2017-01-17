@@ -496,10 +496,7 @@ ul.button-section li a {
     }
 }
 
-
-/*-------comment sectie mobiel------*/
-
-@media screen and (max-width:850px) {
+@media screen and (max-width:1400px) {
     .title-comments {
         margin-top: 0%;
     }
@@ -543,7 +540,95 @@ ul.button-section li a {
     }
 }
 
-@media screen and (max-width:650px) {
+@media screen and (max-width:1300px) {
+    .comment {
+        width: 90%;
+        height: auto;
+        padding: 5%;
+        background-color: white;
+    }
+    .gebruikers-foto {
+        width: 25%;
+        height: auto;
+    }
+    .comment-gebruiker {
+        float: none;
+        width: 100%;
+        margin-right: 2%;
+        border-right-color: black;
+        border-width: 2px;
+        margin-top: -4%
+    }
+    .views {
+        width: 30%;
+        border: none;
+        margin-right: 2%;
+        float: right;
+        margin-top: -3em;
+    }
+    .comment1 {
+        width: 90%;
+        height: auto;
+        border-color: grey;
+        padding: 5%;
+        background-color: #EDEDED;
+    }
+    .comment2 {
+        width: 90%;
+        height: auto;
+        padding: 5%;
+        background-color: white;
+    }
+}
+
+
+/*-------comment sectie mobiel------*/
+
+@media screen and (min-width:900px) {
+    .title-comments {
+        margin-top: 0%;
+    }
+    .line-under-title1 {
+        margin: 0%;
+        padding: 0%;
+    }
+    .comment {
+        width: 90%;
+        height: 10em;
+        padding: 5%;
+        background-color: white;
+    }
+    .gebruikers-foto {
+        width: 17%;
+        margin-top: 0%;
+        height: auto;
+    }
+    .views {
+        width: 0%;
+        height: 110%;
+        border-left-width: 1px;
+        border-left-style: inset;
+        border-color: black;
+        margin-right: 27%;
+        float: right;
+        padding-top: 1em;
+    }
+    .comment1 {
+        width: 90%;
+        height: 10em;
+        border-color: grey;
+        padding: 5%;
+        background-color: #EDEDED;
+    }
+    .comment2 {
+        width: 90%;
+        height: 10em;
+        padding: 5%;
+        background-color: white;
+    }
+}
+
+@media screen and (min-width:800px) {
     .comment {
         width: 90%;
         height: auto;
