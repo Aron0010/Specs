@@ -356,7 +356,9 @@ padding-right:20%;}
  }
 
 @media screen and (max-width:1000px) {
-    .short-menue-full-test{display:none;}}
+    
+    .short-menue-full-test{display:none;}
+}
 
 /*---Main fullscreen----*/
 
@@ -388,7 +390,7 @@ padding-right:20%;}
         margin-left:4%;}
     
     .short-menue-full-test{float:right;
-        margin-top:12.1%;
+        margin-top:7%;
         margin-right:5%;
         width:20%;
     }
