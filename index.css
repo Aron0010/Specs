@@ -1,5 +1,6 @@
     body {
         margin: 0;
+        font-family: 'Nunito Sans', sans-serif;
     }
 
 
@@ -53,21 +54,6 @@
     
     .container {
         position: relative;
-    }
-    
-    .centertitle {
-        position: absolute;
-        left: 25%;
-        top: 30%;
-        width: 50%;
-        text-align: center;
-        font-size: 35px;
-        color: white;
-        padding-top: 2%;
-        padding-bottom: 2%;
-        text-align: center;
-        font-weight: bold;
-        display: inline-block;
     }
     
     .coverphoto {
@@ -184,38 +170,7 @@
         height: 0;
     }
 
-@media screen and (max-width:638px) {
-    .rij-1 {
-        width: 36%;
-    }
-    .rij-2 {
-        margin-right: 4%;
-    }
-}
-    
-    @media screen and (max-width:500px) {
-        .rij-1 {
-            width: 100%;
-            text-align: center;
-            float: none;
-            padding: 0;
-            padding-top: 2%;
-        }
-        .rij-2 {
-            width: 100%;
-            text-align: center;
-            float: none;
-            padding: 0;
-            margin: auto;
-        }
-        .rij-3 {
-            width: 100%;
-            text-align: center;
-            float: none;
-            padding: 0;
-            margin: auto;
-        }
-    }
+
     /*------------Responsive------------*/
     
     @media screen and (max-width:850px) {
@@ -258,20 +213,8 @@
             padding-right: 30%;
             width: 40%;
         }
-        p.centertitle {
-            position: absolute;
-            left: 0%;
-            top: 18%;
-            width: 100%;
-            text-align: center;
-            font-size: 35px;
-            color: blue;
-            padding-top: 2%;
-            padding-bottom: 2%;
-            text-align: center;
-            font-weight: bold;
-            display: inline-block;
-        }
+        
+        
         img.articelphoto {
             width: 85%;
             margin-bottom: 2%;
@@ -292,23 +235,18 @@
         }
     }
     
-    @media screen and (max-width:531px) {
-        p.centertitle {
-            position: absolute;
-            left: 0%;
-            top: 0%;
-            width: 100%;
-            text-align: center;
-            font-size: 35px;
-            color: green;
-            padding-top: 2%;
-            padding-bottom: 2%;
-            text-align: center;
-            font-weight: bold;
-            display: inline-block;
-        }
-    }
-    
+
+
+
+
+
+
+
+
+
+
+
+
     @media screen and (max-width:500px) {
         ul.nav-section {
             list-style-type: none;
@@ -356,20 +294,7 @@
         h2.articeltitel {
             margin-left: 2%;
         }
-        p.centertitle {
-            position: absolute;
-            left: 0%;
-            top: 0%;
-            width: 100%;
-            text-align: center;
-            font-size: 35px;
-            color: red;
-            padding-top: 2%;
-            padding-bottom: 2%;
-            text-align: center;
-            font-weight: bold;
-            display: inline-block;
-        }
+       
         ul.button-section {
             list-style-type: none;
             margin: 0%;
@@ -414,6 +339,14 @@
         
     }
     
+    .articeltitel {
+        margin-left: 2%;
+    }
+    
+    .articelphoto {
+        width: 400px;
+    }
+    
     .blok1 {
         float: left;
         width: 45%;
@@ -425,11 +358,58 @@
         float: right;
         width: 45%;
         padding-right: 4%;
+        padding-top: 10px;
         display: inline-block;
+        
     }
-    
-    
 }
+
+
+@media screen and (min-width:1390px) {
+    .articelphoto {
+        width: 500px;
+    }
+}
+
+
+
+
+
+@media screen and (max-width:638px) {
+    .rij-1 {
+        width: 36%;
+    }
+    .rij-2 {
+        margin-right: 4%;
+    }
+}
+    
+    @media screen and (max-width:500px) {
+        .rij-1 {
+            width: 100%;
+            text-align: center;
+            float: none;
+            padding: 0;
+            padding-top: 2%;
+        }
+        .rij-2 {
+            width: 100%;
+            text-align: center;
+            float: none;
+            padding: 0;
+            margin: auto;
+        }
+        .rij-3 {
+            width: 100%;
+            text-align: center;
+            float: none;
+            padding: 0;
+            margin: auto;
+        }
+    }
+
+
+
     /*------------buttons--------------*/
     
     ul.button-section {
