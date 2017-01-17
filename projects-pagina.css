@@ -143,7 +143,37 @@
  }
 
 #nextpage{float:left;
-margin-left:187%;}
+    width:70%;
+         margin-left:147%;
+     margin-top:0em;}
+
+#previouspage{float:left;
+    width:70%;
+         margin-top:0%;
+         margin-left:-117%;}
+
+ @media screen and (max-width:859px) {
+     #nextpage{float:left;
+    width:70%;
+         margin-left:138%;
+     margin-top:-3.5em;}}
+
+@media screen and (max-width:859px) {
+     #previouspage{float:left;
+    width:70%;
+         margin-top:0%;
+         margin-left:0%;}}
+
+@media screen and (max-width:500px) {
+     #nextpage{float:left;
+         margin-top:0em;
+    width:45%;
+         margin-left:10%;}}
+@media screen and (max-width:500px) {
+     #previouspage{float:left;
+         margin-top:0;
+    width:45%;
+         margin-left:0%;}}
 
 .main-deel{margin:6%;
 height:90em;}
@@ -409,6 +439,25 @@ padding-right:30%;}
 
     #uploaden{display: none;}
     
+    .midden {margin-left:5%;
+        margin-top:-4em;
+     float: left;
+     padding: 0;
+        width: 30%;}
+    
+       .boven {padding-top:16px;
+     width: 30%;
+           margin-top:-4em;
+     float: left;
+ }
+    
+    .rechts {padding-top:0%;
+        margin-top:-4em;
+     width: 30%;
+     float: right;
+ }
+    
+    
 }
     
 /*---Main mobile----*/
@@ -453,6 +502,9 @@ button {
     padding: 2%;
     text-align: center;
 }
+    
+ 
+    
 }
 
  /*-------footer------*/
