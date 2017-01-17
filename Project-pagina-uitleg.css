@@ -281,7 +281,7 @@ ul.button-section li a {
         margin-top: 2.5%;
     }
     .button-pos-full {
-        position: fixed;
+        position:absolute;
         width: 25%
     }
     ul.button-section-fullscreen {
