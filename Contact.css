@@ -409,12 +409,11 @@ h2 {padding-top: 15px;
 
 
 
+/*----Footer---*/
 
 
-
-/*-------footer------*/
-
-footer {margin-top:5%;
+footer {
+    margin-top: 5%;
     Background-color: #4797AE;
     padding-bottom: 30px;
     color: white;
@@ -443,14 +442,17 @@ footer {margin-top:5%;
     margin-top: 10px;
 }
 
+.rij-2 a {
+    color: white;
+    text-decoration: underline;
+}
+
 .rij-3 {
     float: right;
     padding-left: 0%;
     margin-right: 7%;
     margin-top: 10px;
 }
-
-
 
 .clearfix a:hover {
     color: white;
@@ -466,30 +468,36 @@ footer {margin-top:5%;
     height: 0;
 }
 
+
+/*----Footer mobiel---*/
+
 @media screen and (max-width:638px) {
-.rij-1 {width: 36%;}
-    
-.rij-2 { margin-right: 4%;
-}
-    
-@media screen and (max-width:500px) {
-
-.rij-1 {width:100%;
-    text-align: center;
-    float: none;
-    padding:0;
-}
-
-.rij-2 {width:100%;
-    text-align: center;
-    float: none;
-    padding:0;
-    margin:auto;
-}
-
-.rij-3 {width:100%;
-    text-align: center;
-    float: none;
-    padding:0;
-    margin:auto;
-}
+    .rij-1 {
+        width: 36%;
+    }
+    .rij-2 {
+        margin-right: 4%;
+    }}
+    @media screen and (max-width:500px) {
+        .rij-1 {
+            width: 100%;
+            text-align: center;
+            float: none;
+            padding: 0;
+            padding-top: 2%;
+        }
+        .rij-2 {
+            width: 100%;
+            text-align: center;
+            float: none;
+            padding: 0;
+            margin: auto;
+        }
+        .rij-3 {
+            width: 100%;
+            text-align: center;
+            float: none;
+            padding: 0;
+            margin: auto;
+        }
+    }
