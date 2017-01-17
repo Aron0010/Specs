@@ -144,6 +144,11 @@
         margin-left: 0%;
         margin-top: 10px;
     }
+
+.rij-2 a {
+    color: white;
+    text-decoration: underline;
+}
     
     .rij-3 {
         float: right;
