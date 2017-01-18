@@ -1,12 +1,14 @@
-ul .buttons-below{padding:0;}
+
 
 .buttons-below li{display: inline-block;
     padding:0;
+    width:0em;
     margin-left:0%;}
 .buttons-below li a{width:30px;
               height:30px;
               padding:0;
-    margin-top:-1em;
+            margin-top:-1em;
+    margin-bottom: -.5em;
               background-image:url(spritesheet-buttons-below.png);
               text-indent: -9999px;
               background-size:320% 280%;
@@ -14,9 +16,10 @@ ul .buttons-below{padding:0;}
               
             
             a.like1{display:inline-block;
-            background-position: -10px -9px;}
-            a.like1:hover{background-position: -10px -41px;}
-            
+            background-position: -10px -10px;}
+            a.like1:hover{background-position: -10px -42px;}
+            .like1{margin-left:-13em;}    
+
             a.comment{display:inline-block;
                 margin-left:1px;
             background-position: 62.5px -8px; }
@@ -25,8 +28,8 @@ ul .buttons-below{padding:0;}
             a.share{display:inline-block;
                 margin-right:8em ;
                 background-position: 36px -8px;}
-            
             a.share:hover{background-position: 36px 44px;}
+            .share{margin-left:3em}
 
 
 body {
@@ -336,6 +339,7 @@ padding-right:20%;}
      background-color: white;
      width: 100%;
      height:25;
+    padding-bottom:.1%;
      text-align: center;
  }
  
