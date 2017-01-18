@@ -31,6 +31,12 @@
             a.share:hover{background-position: 36px 44px;}
             .share{margin-left:3em}
 
+ @media screen and (max-width:1200px) {
+
+  .like1{margin-left:-10em;} 
+   .share{margin-left:2em}
+}
+
 
 body {
              font-family: 'Nunito Sans', sans-serif;
