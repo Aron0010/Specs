@@ -1,4 +1,4 @@
-
+ /*-------Spritesheet------*/
 
 .buttons-below li{display: inline-block;
     padding:0;
@@ -9,7 +9,7 @@
               padding:0;
             margin-top:-1em;
     margin-bottom: -.5em;
-              background-image:url(spritesheet-buttons-below.png);
+              background-image:url(Images/spritesheet-buttons-below.png);
               text-indent: -9999px;
               background-size:320% 280%;
               display:inline-block;}
@@ -211,7 +211,7 @@ body {
          margin-left:0%;}}
 
 .main-deel{margin:6%;
-height:90em;}
+height:72em;}
 
  .Projecten {
      margin-left: 2%;
@@ -408,9 +408,23 @@ padding-right:20%;}
      margin-top: 2.5%;
      background-color: #f7f7f7;
     }
+    
+    .main-deel{margin:6%;
+height:80em;}
 
     .main-deel{width:75%;
     margin:4%}
+    
+    
+#nextpage{float:left;
+    width:70%;
+         margin-left:141%;
+     margin-top:0em;}
+
+#previouspage{float:left;
+    width:70%;
+         margin-top:0%;
+         margin-left:-111%;}
 
     #uploaden-full {float:right;
         background-color:rgb(94, 190, 216);
@@ -507,6 +521,9 @@ padding-right:30%;}
 @media screen and (max-width:850px) {
     .boven {display: none;
  }
+    
+    .main-deel{margin:6%;
+height:80em;}
  
 .midden {width: 48%;
     margin-left:0%;}
@@ -517,6 +534,9 @@ padding-right:30%;}
 @media screen and (max-width:500px) {
     .boven {display: none;
  }
+    
+.main-deel{margin:6%;
+height:92em;}
     
 .rechts{display:none;}
  
@@ -550,62 +570,62 @@ button {
 }
 
  /*-------footer------*/
- 
- footer {
-     margin-top: 5%;
-     Background-color: #4797AE;
-     padding-bottom: 30px;
-     color: white;
- }
- 
- .clearfix a {
-     text-decoration: none;
-     color: antiquewhite;
- }
- 
- .rij-1 {
-     float: left;
-     width: 45%;
-     padding-top: 10px;
-     padding-right: 20px;
-     padding-left: 7%;
-     margin: 0;
- }
- 
- .rij-2 {
-     float: right;
-     width: 130px;
-     padding-right: 0px;
-     margin-right: 0%;
-     margin-left: 0%;
-     margin-top: 10px;
- }
+
+footer {
+    margin-top: 5%;
+    Background-color: #4797AE;
+    padding-bottom: 30px;
+    color: white;
+}
+
+.clearfix a {
+    text-decoration: none;
+    color: antiquewhite;
+}
+
+.rij-1 {
+    float: left;
+    width: 45%;
+    padding-top: 10px;
+    padding-right: 20px;
+    padding-left: 7%;
+    margin: 0;
+}
+
+.rij-2 {
+    float: right;
+    width: 130px;
+    padding-right: 0px;
+    margin-right: 0%;
+    margin-left: 0%;
+    margin-top: 10px;
+}
 
 .rij-2 a {
     color: white;
     text-decoration: underline;
 }
 
- .rij-3 {
-     float: right;
-     padding-left: 0%;
-     margin-right: 7%;
-     margin-top: 10px;
- }
- 
- .clearfix a:hover {
-     color: white;
-     text-decoration: none;
- }
- 
- .clearfix:after {
-     content: " ";
-     display: block;
-     clear: both;
-     visibility: hidden;
-     line-height: 0;
-     height: 0;
- }
+.rij-3 {
+    float: right;
+    padding-left: 0%;
+    margin-right: 7%;
+    margin-top: 10px;
+}
+
+.clearfix a:hover {
+    color: white;
+    text-decoration: none;
+}
+
+.clearfix:after {
+    content: " ";
+    display: block;
+    clear: both;
+    visibility: hidden;
+    line-height: 0;
+    height: 0;
+}
 
 .submit {
     background: white;
@@ -615,36 +635,61 @@ button {
     margin-left: 0;
 }
 
- 
- @media screen and (max-width:638px) {
+.fotos-talen{margin-top:-10%;
+    text-decoration: underline;
+margin-left:-32%;}
+
+.fotos-talen ul{list-style-type: none;
+    text-align: left;
+display: inline-block;}
+
+.fotos-talen ul li{display: inline-block;}
+
+
+
+/*----Footer mobiel---*/
+
+@media screen and (max-width:694px) {
      .rij-1 {
          width: 30%;
      }
      .rij-2 {width:110px;
          margin-right: 3%;
      }}
-     @media screen and (max-width:500px) {
-         .rij-1 {
-             width: 100%;
-             text-align: center;
-             float: none;
-             padding: 0;
-             padding-top: 2%;
-         }
-         .rij-2 {
-             width: 100%;
-             text-align: center;
-             float: none;
-             padding: 0;
-             margin: auto;
-         }
-         .rij-3 {
-             width: 100%;
-             text-align: center;
-             float: none;
-             padding: 0;
-             margin: auto;
-         }}
+
+    @media screen and (max-width:500px) {
+        .rij-1 {
+            width: 100%;
+            text-align: center;
+            float: none;
+            padding: 0;
+            padding-top: 2%;
+        }
+        .rij-2 {
+            width: 100%;
+            text-align: center;
+            float: none;
+            padding: 0;
+            margin: auto;
+        }
+        .rij-3 {
+            width: 100%;
+            text-align: center;
+            float: none;
+            padding: 0;
+            margin: auto;
+        }
+    
+
+.fotos-talen{margin-top:-4%;
+margin-left:-10%}
+
+.fotos-talen ul{list-style-type: none;
+    text-align:center;
+display: inline-block;}
+
+.fotos-talen ul li{display: inline-block;
+    text-align: center;}}
 
 /*------------hamburger menue--------------*/
 

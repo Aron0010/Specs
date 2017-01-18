@@ -476,7 +476,7 @@ ul.button-section li a {
     height: 10em;
 }
 
-#comment-knop {
+#comment-knop {color:white;
     width: 20%;
     border: none;
     background-color: rgb(94, 190, 216);
@@ -757,6 +757,15 @@ footer {
     margin-left: 0;
 }
 
+.fotos-talen{margin-top:-15%;
+margin-left:-32%;}
+
+.fotos-talen ul{list-style-type: none;
+    text-align: left;
+display: inline-block;}
+
+.fotos-talen ul li{display: inline-block;}
+
 
 
 /*----Footer mobiel---*/
@@ -790,7 +799,17 @@ footer {
             padding: 0;
             margin: auto;
         }
-    }
+    
+
+.fotos-talen{margin-top:-4%;
+margin-left:-10%}
+
+.fotos-talen ul{list-style-type: none;
+    text-align:center;
+display: inline-block;}
+
+.fotos-talen ul li{display: inline-block;
+    text-align: center;}}
 
 /*------------hamburger menue--------------*/
 
