@@ -1,4 +1,35 @@
-         body {
+ul .buttons-below{padding:0;}
+
+.buttons-below li{display: inline-block;
+    padding:0;
+    margin-left:0%;}
+.buttons-below li a{width:30px;
+              height:30px;
+              padding:0;
+    margin-top:-1em;
+              background-image:url(spritesheet-buttons-below.png);
+              text-indent: -9999px;
+              background-size:320% 280%;
+              display:inline-block;}
+              
+            
+            a.like1{display:inline-block;
+            background-position: -10px -9px;}
+            a.like1:hover{background-position: -10px -41px;}
+            
+            a.comment{display:inline-block;
+                margin-left:1px;
+            background-position: 62.5px -8px; }
+            a.comment:hover{background-position: 62.5px 44px;}
+            
+            a.share{display:inline-block;
+                margin-right:8em ;
+                background-position: 36px -8px;}
+            
+            a.share:hover{background-position: 36px 44px;}
+
+
+body {
              font-family: 'Nunito Sans', sans-serif;
      margin: 0;
  }
@@ -62,9 +93,10 @@
          width: 25%;
          margin-left: 0%;
          margin-right: 0%;
-         margin-top: 2%;
-         padding-top: 1%;
-         padding-bottom: 1%;
+         margin-top: 0%;
+         margin-bottom: 0;
+         padding-top: 0%;
+         padding-bottom: 0%;
          text-align: center;
      }
      ul.nav li a {
@@ -72,8 +104,8 @@
          display: inline-block;
          color: white;
          padding: 0;
-         padding-top: 2%;
-         padding-bottom: 2%;
+         padding-top: 10%;
+         padding-bottom: 10%;
          margin: 0;
          text-align: center;
          text-decoration: none;
@@ -358,6 +390,8 @@ padding-right:20%;}
 @media screen and (max-width:1000px) {
     
     .short-menue-full-test{display:none;}
+    
+    .short-menue-full h4{display:none;}
 }
 
 /*---Main fullscreen----*/
@@ -396,7 +430,7 @@ padding-right:20%;}
     }
 
     .short-menue-full {
-        
+        text-align: center;
         float:none;
     margin-top:0%;
         padding:0;
@@ -434,6 +468,8 @@ padding-right:30%;}
     text-decoration: none;
     color: black;
 }
+    
+    .short-menue h4{display: none;}
     
     
     .short-menue ul li {display: none;
@@ -534,9 +570,9 @@ button {
  
  .rij-2 {
      float: right;
-     width: 95px;
+     width: 130px;
      padding-right: 0px;
-     margin-right: 7%;
+     margin-right: 0%;
      margin-left: 0%;
      margin-top: 10px;
  }
@@ -569,10 +605,10 @@ button {
  
  @media screen and (max-width:638px) {
      .rij-1 {
-         width: 36%;
+         width: 30%;
      }
-     .rij-2 {
-         margin-right: 4%;
+     .rij-2 {width:110px;
+         margin-right: 3%;
      }}
      @media screen and (max-width:500px) {
          .rij-1 {
