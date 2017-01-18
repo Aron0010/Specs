@@ -602,6 +602,15 @@ button {
      line-height: 0;
      height: 0;
  }
+
+.submit {
+    background: white;
+    border: solid 1px #00C9FF;
+    padding-left: 8px;
+    padding-right: 8px;
+    margin-left: 0;
+}
+
  
  @media screen and (max-width:638px) {
      .rij-1 {
