@@ -371,14 +371,14 @@ padding-right:20%;}
      background-color: #f7f7f7;
     }
 
-    .main-deel{width:70%;
+    .main-deel{width:75%;
     margin:4%}
 
     #uploaden-full {float:right;
         background-color:rgb(94, 190, 216);
         color: white;
         padding: 14px 20px;
-        margin-right: -1em;
+        margin-right: em;
         border: none;
         float: right;
         width: 80%;
@@ -401,7 +401,7 @@ padding-right:20%;}
     margin-top:0%;
         padding:0;
         width:100%;
-    margin-left:-8%;
+    margin-left:-14%;
 } 
 
 .short-menue-full img{Width:30%;
@@ -441,7 +441,7 @@ padding-right:30%;}
 
     #uploaden{display: none;}
     
-    .midden {margin-left:5%;
+    .midden {margin-left:3.2%;
         margin-top:-4em;
      float: left;
      padding: 0;
@@ -596,3 +596,72 @@ button {
              padding: 0;
              margin: auto;
          }}
+
+/*------------hamburger menue--------------*/
+
+.nav-hamburger{background-color:#4797AE;}
+
+@media screen and (min-width:500px) {
+    
+    .nav-hamburger{display:none;}
+    
+    .logo-mobile{display: none;}
+}
+
+.logo-mobile{width:70%;
+    margin-top:4%;
+    margin-left:15%;
+    padding:0%;
+background-color:#4797AE;}
+
+ul.topnav {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
+  background-color: #4797AE;
+}
+
+ul.topnav li {float: left;
+}
+
+ul.topnav li a {
+  display: inline-block;
+  color: #f2f2f2;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+  transition: 0.3s;
+  font-size: 17px;
+}
+
+ul.topnav li a:hover {background-color: white;
+color:#4797AE;}
+
+ul.topnav li.icon {display: none;}
+
+@media screen and (max-width:500px) {
+    nav{display:none;}
+  ul.topnav li:not(:first-child) {display: none;}
+  ul.topnav li.icon {
+    float: right;
+    display: inline-block;
+  }
+}
+
+@media screen and (max-width:500px) {
+  ul.topnav.responsive {position: relative;}
+  ul.topnav.responsive li.icon {
+    position: absolute;
+    right: 0;
+    top: 0;
+  }
+  ul.topnav.responsive li {
+    float: none;
+    display: inline;
+  }
+  ul.topnav.responsive li a {
+    display: block;
+    text-align: left;
+  }
+}
