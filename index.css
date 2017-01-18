@@ -63,9 +63,10 @@
         float: left;
         width: 300px;
         padding-left: 7%;
-        padding-right: 2%;
+        padding-right: 7%;
         padding-bottom: 2%;
-        padding-top: 1%
+        padding-top: 1%;
+        
     }
     
     .articelphoto:hover {
@@ -75,7 +76,7 @@
     
     .articeltext {
         padding-left: 7%;
-        padding-right: 5%;
+        padding-right: 7%;
         padding-bottom: 1%;
     }
     
@@ -87,12 +88,13 @@
     
     .titelsection {
         padding-left: 7%;
+        padding-right: 7%;
         padding-top: 2%;
         font-weight: bold;
     }
     
     .articelblock {
-        padding-bottom: 10%;
+        padding-bottom: 5%;
     }
     
     hr {
@@ -322,7 +324,7 @@
             margin-left: 2%;
         }
         .articelphoto {
-            width: 400px;
+            width: 350px;
         }
         .blok1 {
             float: left;
@@ -334,10 +336,27 @@
             float: right;
             width: 45%;
             padding-right: 4%;
-            padding-top: 10px;
+            padding-top: 1px;
             display: inline-block;
         }
     }
+
+ @media screen and (min-width:1100px) {
+        
+        .articelphoto {
+            width: 400px;
+       
+        }
+    }
+
+
+
+
+
+
+
+
+
     
     @media screen and (min-width:1390px) {
         .articelphoto {
@@ -413,7 +432,7 @@
     }
 
 
- /*------------hamburger menue--------------*/
+ /*------------hamburger menu--------------*/
 
 .nav-hamburger{background-color:#4797AE;}
 
